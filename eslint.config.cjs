@@ -6,6 +6,7 @@ module.exports = [
   {
     rules: {
       "@typescript-eslint/ban-ts-comment": "warn",
+      "no-console": "off",
       "no-param-reassign": "off",
       "no-plusplus": "off",
       "comma-dangle": ["error", "always-multiline"],
